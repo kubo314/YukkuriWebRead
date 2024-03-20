@@ -1,0 +1,55 @@
+.thumbnail {
+    background-color: #ddcc77;
+    background-image: url(./thumbnail/thumbnail.svg);
+    background-size: auto 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 960px;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background: #ddcc77;
+}
+.dl_area {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+.dl_area a {
+    text-decoration: underline;
+}
+.dl_area h2,.dl_area span {
+    margin: 0;
+    line-height: 2.5rem;
+}
+.dl_area div {
+    height: 2.5rem;
+    border: solid 0.5px #888;
+    display: flex;
+    justify-content: center;
+}
+
+.link_box {
+    width: 100%;
+    height: 8rem;
+    border: solid 0.5px #888;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.link_thumbnail {
+    width: 30%;
+    height: 100%;
+    background-color: #a1a9b4;
+    background-image: url(../how_to_use/thumbnail/thumbnail.svg);
+    background-size: auto 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.link_box h3 {
+    margin-left: 1rem;
+}

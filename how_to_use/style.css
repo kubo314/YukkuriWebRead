@@ -1,0 +1,41 @@
+.thumbnail {
+    background-color: #a1a9b4;
+    background-image: url(./thumbnail/thumbnail.svg);
+    background-size: auto 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 960px;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+main img {
+    width: 100%;
+}
+header {
+    background: #a1a9b4;
+}
+
+.link_box {
+    width: 100%;
+    height: 8rem;
+    border: solid 0.5px #888;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.link_thumbnail {
+    width: 30%;
+    height: 100%;
+    background-color: #ddcc77;
+    background-image: url(../dl/thumbnail/thumbnail.svg);
+    background-size: auto 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.link_box h3 {
+    margin-left: 1rem;
+}

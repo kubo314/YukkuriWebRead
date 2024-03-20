@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap&text=©2023 yukkuri-web-read.com');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+.flex_all_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: #000;
+    text-decoration: underline;
+}
+header {
+    padding: 1rem 2vw 1rem 2vw;
+}
+.title {
+    padding: 0 2vw 2vw 2vw;
+    height: 100%;
+}
+.title h1 {
+    margin: 0;
+}
+.thumbnail {
+    width: 100%;
+    height: 35vh;
+}
+main {
+    padding: 0 2vw 2vw 2vw;
+    
+    margin-top: 2.5vh;
+
+    min-height: 62.5vh;
+}
+
+footer {
+    width: 100%;
+    height: calc(100vh - 87.5vh);
+    font-family: 'Noto Sans', sans-serif !important;
+    font-weight: 200;
+    flex-flow: column;
+
+    background-color: #4b403e;
+
+    color: #fff;
+}
